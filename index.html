@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="logo.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <title>Social media-ordar </title>
+    <title>panar-ordar </title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Readex+Pro&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
@@ -176,9 +176,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 .image-section {
@@ -190,7 +187,6 @@ body {
 
 .image-section img {
     max-width: 100%;
-    border-radius: 12px;
 }
 
 .info-section {
@@ -396,74 +392,16 @@ body {
     }
 }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
 
-.product {
-    border-radius: 10px;
-    padding: 20px;
+.one-m {
     text-align: center;
-    color: #ffffff;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: opacity 2s ease, transform 1s ease;
-}
-.product.active{
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.product img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.product h2 {
-    font-size: 18px;
-    margin: 15px 0 10px;
-}
-
-.product p {
-    margin: 5px 0;
     font-size: 20px;
-    color: #cccccc;
-}
-
-.product .price {
-    font-size: 18px;
-    font-weight: bold;
     color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.features {
-    margin-top: 15px;
-}
 
-.features p {
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.color-dots {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-top: 10px;
-}
-
-.color-dots span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
-}
 
 .done-ordar {
     background-color: #161616;
@@ -668,7 +606,7 @@ body {
 
         <div class="container">
             <div class="image-section">
-                <img src="hello.jpg" alt="img-top">
+                <img src="بانار OS-Designer.jpg" alt="img-top">
             </div>
     
             <div class="info-section">
@@ -682,13 +620,18 @@ body {
     
                 <div class="options">
                     <div class="option" onclick="selectOption('logo_text')">
-                        <span>يفط<br><small> </small></span>
-                        <span class="price">$80 جنيه</span>
+                        <span>  يفط مضيئه   <br><small> </small></span>
+                        <span class="price">$230 جنيه</span>
+                    </div>
+                    <div class="option" onclick="selectOption('logo_text')">
+                        <span>يفطه غير مضيئه<br><small> </small></span>
+                        <span class="price"> $150 جنيه</span>
                     </div>
                     <div class="option" onclick="selectOption('logo_text')">
                         <span>بنر<br><small> </small></span>
-                        <span class="price">$50 جنيه</span>
+                        <span class="price"> $150 جنيه</span>
                     </div>
+                    <p class="one-m">لكل 1 متر</p>
                 </div>
                 
 
